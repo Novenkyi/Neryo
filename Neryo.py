@@ -21,7 +21,7 @@ plt.ion()   # interactive mode
 from google.colab import drive
 drive.mount('/content/drive')
 
-!unzip "/content/drive/My Drive/sixClasses_T124_200.zip"
+!unzip #your 
 
 data_transforms = {
     'train': transforms.Compose([
